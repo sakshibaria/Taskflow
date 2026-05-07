@@ -1,0 +1,36 @@
+.page { padding: 28px; flex: 1; }
+.loading { padding: 40px; color: #718096; }
+.topbar { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 24px; }
+.pageTitle { font-size: 22px; font-weight: 600; color: #0f1117; }
+.pageSub { font-size: 13px; color: #718096; margin-top: 2px; }
+.btnPrimary { padding: 9px 18px; background: #5046e5; color: #fff; border: none; border-radius: 8px; font-size: 13.5px; font-weight: 600; cursor: pointer; }
+.btnPrimary:hover { background: #3730a3; }
+
+.statsGrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 24px; }
+.statCard { background: #fff; border: 1px solid #e2e5ec; border-radius: 10px; padding: 18px; }
+.statLabel { font-size: 12px; color: #718096; font-weight: 500; margin-bottom: 8px; }
+.statValue { font-size: 28px; font-weight: 600; }
+
+.alert { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 10px; padding: 12px 16px; margin-bottom: 20px; font-size: 13.5px; color: #9a3412; }
+
+.section { margin-bottom: 28px; }
+.sectionHeader { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.sectionTitle { font-size: 14px; font-weight: 600; }
+.sectionLink { font-size: 13px; color: #5046e5; background: none; border: none; cursor: pointer; text-decoration: none; }
+
+.taskList { background: #fff; border: 1px solid #e2e5ec; border-radius: 10px; overflow: hidden; }
+.taskRow { display: grid; grid-template-columns: 2fr 1fr 90px 100px 70px; gap: 12px; padding: 11px 16px; border-bottom: 1px solid #f1f3f7; align-items: center; font-size: 13.5px; }
+.taskRow:last-child { border-bottom: none; }
+.taskRow:not(.taskRowHeader):hover { background: #f9fafb; }
+.taskRowHeader { background: #f7f8fa; font-size: 11.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: #718096; }
+.taskTitle { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tag { font-size: 11.5px; font-weight: 500; padding: 3px 9px; border-radius: 20px; }
+.priorityBadge { font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 4px; text-transform: capitalize; }
+.statusPill { font-size: 11.5px; font-weight: 600; padding: 3px 10px; border-radius: 20px; }
+.s_todo { background: #f1f3f7; color: #4a5568; }
+.s_in_progress { background: #dbeafe; color: #1d4ed8; }
+.s_review { background: #fef3c7; color: #b45309; }
+.s_done { background: #dcfce7; color: #15803d; }
+.dueDate { font-size: 12px; color: #718096; }
+.overdue { font-size: 12px; color: #e11d48; font-weight: 600; }
+.empty { padding: 24px 16px; color: #718096; font-size: 13.5px; }

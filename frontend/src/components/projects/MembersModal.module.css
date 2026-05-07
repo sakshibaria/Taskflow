@@ -1,0 +1,16 @@
+.memberList { margin-bottom: 20px; border: 1px solid #e2e5ec; border-radius: 8px; overflow: hidden; }
+.memberRow { display: flex; align-items: center; gap: 12px; padding: 12px 16px; border-bottom: 1px solid #f1f3f7; }
+.memberRow:last-child { border-bottom: none; }
+.memberAvatar { width: 36px; height: 36px; border-radius: 50%; font-size: 12px; font-weight: 600; color: #fff; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.memberInfo { flex: 1; min-width: 0; }
+.memberName { font-size: 13.5px; font-weight: 500; }
+.memberEmail { font-size: 12px; color: #718096; }
+.memberActions { display: flex; align-items: center; gap: 8px; }
+.roleSelect { padding: 4px 8px; border: 1px solid #e2e5ec; border-radius: 6px; font-size: 12.5px; color: #4a5568; background: #f9fafb; cursor: pointer; }
+.roleBadge { font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 20px; }
+.roleAdmin { background: #ede9fe; color: #4338ca; }
+.roleMember { background: #f1f3f7; color: #4a5568; }
+.removeBtn { padding: 4px 10px; background: transparent; border: 1px solid #fecaca; color: #e11d48; border-radius: 6px; font-size: 12px; cursor: pointer; font-family: inherit; }
+.removeBtn:hover { background: #fee2e2; }
+.inviteSection { margin-bottom: 16px; }
+.inviteRow { display: flex; gap: 8px; margin-top: 8px; }

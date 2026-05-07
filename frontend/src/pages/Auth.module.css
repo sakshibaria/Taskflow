@@ -1,0 +1,141 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ede9fe 0%, #f7f8fa 50%, #e0f2fe 100%);
+  padding: 24px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e2e5ec;
+  border-radius: 16px;
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.logoMark {
+  width: 36px;
+  height: 36px;
+  background: #5046e5;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.logoText {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f1117;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0f1117;
+  margin-bottom: 4px;
+}
+
+.sub {
+  font-size: 14px;
+  color: #718096;
+  margin-bottom: 28px;
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+.label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 6px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #e2e5ec;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.15s;
+  background: #fff;
+}
+
+.input:focus {
+  border-color: #5046e5;
+  box-shadow: 0 0 0 3px rgba(80, 70, 229, 0.1);
+}
+
+.btn {
+  width: 100%;
+  padding: 11px;
+  background: #5046e5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.15s;
+}
+
+.btn:hover:not(:disabled) {
+  background: #3730a3;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.demoBox {
+  margin-top: 20px;
+  padding: 12px 14px;
+  background: #f7f8fa;
+  border-radius: 8px;
+  border: 1px solid #e2e5ec;
+}
+
+.demoTitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 4px;
+}
+
+.demoLine {
+  font-size: 12px;
+  color: #718096;
+  font-family: monospace;
+}
+
+.switchText {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13.5px;
+  color: #718096;
+}
+
+.link {
+  color: #5046e5;
+  font-weight: 500;
+}

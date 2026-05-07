@@ -1,0 +1,48 @@
+.page { padding: 28px; flex: 1; overflow-y: auto; }
+.loading { padding: 40px; color: #718096; }
+.topbar { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 16px; gap: 16px; }
+.topbarLeft { display: flex; align-items: center; gap: 12px; }
+.projectColor { width: 14px; height: 14px; border-radius: 4px; flex-shrink: 0; margin-top: 4px; }
+.pageTitle { font-size: 20px; font-weight: 600; }
+.pageSub { font-size: 13px; color: #718096; margin-top: 2px; }
+.topbarRight { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.memberAvatars { display: flex; }
+.memberAvatar { width: 28px; height: 28px; border-radius: 50%; font-size: 10px; font-weight: 600; color: #fff; display: flex; align-items: center; justify-content: center; border: 2px solid #fff; margin-left: -6px; cursor: default; }
+.memberAvatar:first-child { margin-left: 0; }
+.viewTabs { display: flex; background: #f1f3f7; border-radius: 7px; padding: 3px; }
+.viewTab { padding: 5px 12px; border: none; background: transparent; border-radius: 4px; font-size: 12.5px; color: #718096; cursor: pointer; font-family: inherit; }
+.viewTabActive { background: #fff; color: #0f1117; font-weight: 500; }
+.btnPrimary { padding: 8px 16px; background: #5046e5; color: #fff; border: none; border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap; }
+.btnPrimary:hover { background: #3730a3; }
+.btnGhost { padding: 7px 14px; background: transparent; color: #4a5568; border: 1px solid #e2e5ec; border-radius: 8px; font-size: 13px; cursor: pointer; white-space: nowrap; font-family: inherit; }
+.btnGhost:hover { background: #f7f8fa; }
+
+.progressBar { height: 6px; background: #f1f3f7; border-radius: 20px; margin-bottom: 6px; overflow: hidden; }
+.progressFill { height: 100%; border-radius: 20px; transition: width 0.3s; }
+.progressLabel { font-size: 12px; color: #718096; margin-bottom: 20px; }
+
+.board { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; align-items: start; }
+.column { background: #f7f8fa; border-radius: 10px; padding: 12px; min-height: 120px; }
+.columnHeader { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+.columnTitle { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+.columnCount { font-size: 11px; background: #e2e5ec; color: #718096; border-radius: 10px; padding: 1px 7px; font-weight: 600; }
+.taskCard { background: #fff; border: 1px solid #e2e5ec; border-radius: 8px; padding: 12px; margin-bottom: 8px; }
+.taskCard:hover { border-color: #c7d2fe; }
+.taskCardTitle { font-size: 13px; font-weight: 500; margin-bottom: 10px; line-height: 1.4; }
+.taskCardMeta { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; flex-wrap: wrap; }
+.priorityBadge { font-size: 10.5px; font-weight: 600; padding: 2px 7px; border-radius: 4px; text-transform: capitalize; }
+.assigneeAvatar { width: 22px; height: 22px; border-radius: 50%; font-size: 9px; font-weight: 700; color: #fff; display: flex; align-items: center; justify-content: center; }
+.dueDate { font-size: 11px; color: #718096; margin-left: auto; }
+.overdue { font-size: 11px; color: #e11d48; font-weight: 600; margin-left: auto; }
+.moveSelect { width: 100%; padding: 4px 6px; border: 1px solid #e2e5ec; border-radius: 5px; font-size: 11.5px; color: #4a5568; background: #f9fafb; cursor: pointer; }
+.emptyCol { font-size: 12px; color: #9ca3af; text-align: center; padding: 16px 0; }
+
+.listView { background: #fff; border: 1px solid #e2e5ec; border-radius: 10px; overflow: hidden; }
+.listRow { display: grid; grid-template-columns: 2fr 1fr 90px 120px 70px 40px; gap: 12px; padding: 11px 18px; border-bottom: 1px solid #f1f3f7; align-items: center; font-size: 13.5px; }
+.listRow:last-child { border-bottom: none; }
+.listRow:not(.listHeader):hover { background: #f9fafb; }
+.listHeader { background: #f7f8fa; font-size: 11.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: #718096; }
+.listTitle { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.deleteBtn { background: transparent; border: none; color: #9ca3af; cursor: pointer; font-size: 13px; padding: 3px 6px; border-radius: 4px; }
+.deleteBtn:hover { color: #e11d48; background: #fee2e2; }
+.emptyList { padding: 32px; text-align: center; color: #9ca3af; }

@@ -1,0 +1,205 @@
+.app {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 230px;
+  min-width: 230px;
+  background: #1e1b4b;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 18px 16px;
+}
+
+.logoMark {
+  width: 32px;
+  height: 32px;
+  background: #5046e5;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.logoText {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.nav {
+  padding: 0 10px;
+  margin-bottom: 8px;
+}
+
+.navLabel {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6b7280;
+  padding: 8px 8px 4px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  color: #a5b4fc;
+  font-size: 13.5px;
+  text-decoration: none;
+  transition: background 0.15s;
+  margin-bottom: 2px;
+}
+
+.navItem:hover {
+  background: rgba(255,255,255,0.07);
+}
+
+.navItem.active {
+  background: rgba(99,102,241,0.25);
+  color: #fff;
+}
+
+.navIcon {
+  font-size: 15px;
+  width: 18px;
+  text-align: center;
+}
+
+.projectsSection {
+  padding: 0 10px;
+  flex: 1;
+}
+
+.projItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: #a5b4fc;
+  font-size: 13px;
+  text-decoration: none;
+  margin-bottom: 1px;
+  transition: background 0.15s;
+}
+
+.projItem:hover {
+  background: rgba(255,255,255,0.06);
+}
+
+.projItem.projActive {
+  background: rgba(99,102,241,0.2);
+  color: #fff;
+}
+
+.projDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.projName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.newProjBtn {
+  width: 100%;
+  text-align: left;
+  padding: 7px 10px;
+  background: transparent;
+  border: none;
+  color: #6b7280;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: 4px;
+}
+
+.newProjBtn:hover {
+  background: rgba(255,255,255,0.06);
+  color: #a5b4fc;
+}
+
+.userArea {
+  padding: 12px 14px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.userInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.userName {
+  font-size: 13px;
+  font-weight: 500;
+  color: #e0e7ff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.userEmail {
+  font-size: 11px;
+  color: #6b7280;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.logoutBtn {
+  background: transparent;
+  border: none;
+  color: #6b7280;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.logoutBtn:hover {
+  color: #a5b4fc;
+}
+
+.main {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
