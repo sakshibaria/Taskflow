@@ -2,7 +2,6 @@
 
 A full-stack team task management application with role-based access control, built with Node.js, Express, PostgreSQL, and React.
 
-**Live Demo:** `https://taskflow-api-production.up.railway.app`
 
 ---
 
